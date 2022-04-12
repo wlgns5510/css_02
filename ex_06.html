@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+        	.bg-img{
+        		background-color: #ff0000;
+        		background-image: url("./img/back_img01.jpg");
+        		width: 4000px;
+        		height: 2000px;
+        		background-repeat: no-repeat;
+        		/* background-repeat: repeat-x;  x축 반복*/ 
+        		/* background-repeat: repeat-y;  y축 반복*/
+        		
+        		/* background-size: auto; 기본값	 */	
+        		/* background-size: contain; 요소안에 이미지확대/축소 */
+        		
+        		/* background-position: left bottom; */
+        		
+        		/* background-attachment: fixed; 스크롤해도 배경 고정 */
+        	}
+        	.bg-img2{
+        		width: 4000px;
+        		height: 2000px;
+        		/* background-color: #022250;
+        		background-image: url("./img/back_img01.jpg");
+        		background-repeat: no-repeat;
+        		background-attachment: fixed;
+        		background-position: bottom center; */
+        		background: #022250 url("./img/back_img01.jpg") no-repeat fixed bottom center;
+        	}
+        	.bg-img3{
+        		width: 4000px;
+        		height: 2000px;
+        		background: #7da7d9 url("./img/back_img02.jpg") repeat-y fixed bottom center;
+        	}
+        </style>
+    </head>
+
+    <body>
+    	<div class="bg-img3">
+    		안녕하세요
+    	</div>
+    	<br><br><br>
+      	<div>
+      		안녕하세요
+    		<img src="./img/yoo.jpg">
+    	</div>
+    	
+        
+
+    </body>
+
+</html>

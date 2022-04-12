@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+        	li{
+        		/* border: 1px solid #000000; */
+        		list-style-type: none;
+        		float: left;
+        		padding: 0px 20px 0px 0px;        		
+        	}
+        	a:link{ text-decoration: none;}
+        	a{ color: #000000;}
+        	li:after { content: ">";}
+        	.li-5:after { content: "";}
+        </style>
+    </head>
+
+    <body>
+    	<ol>
+    		<li>
+    			<a href="">
+    				홈&nbsp;&nbsp;&nbsp;
+    			</a>
+    		</li>
+    		<li>
+    			<a href="">
+    				게시판&nbsp;&nbsp;&nbsp;
+    			</a>
+    		</li>
+    		<li>
+	    		<a href="">
+	    			일반게시판&nbsp;&nbsp;&nbsp;
+    			</a>
+    		</li>
+    		<li class="li-5">
+    			<a href="">
+    				리스트&nbsp;&nbsp;&nbsp;
+    			</a>
+    		</li>
+    	</ol>
+        
+
+    </body>
+
+</html>
